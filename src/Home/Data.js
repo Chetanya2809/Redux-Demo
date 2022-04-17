@@ -50,6 +50,7 @@ export default function Data() {
   
   return (
       <View style={{flex:1,backgroundColor:'#13364c',paddingTop:10}}>
+        <Text>Iam Prakhar</Text>
     <FlatList 
     data={data}
     renderItem={renderItem}
